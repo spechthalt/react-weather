@@ -9,7 +9,10 @@ function App() {
         <footer>
           <p>
             This webiste was coded by Stephanie Davis and is{" "}
-            <a href="https://github.com/spechthalt/react-weather">
+            <a
+              href="https://github.com/spechthalt/react-weather"
+              target="_blank"
+            >
               open-sourced on GitHub
             </a>
           </p>
