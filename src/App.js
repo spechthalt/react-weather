@@ -5,13 +5,14 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather city="New York" />
         <footer>
           <p>
             This webiste was coded by Stephanie Davis and is{" "}
             <a
               href="https://github.com/spechthalt/react-weather"
               target="_blank"
+              rel="noreferrer"
             >
               open-sourced on GitHub
             </a>
