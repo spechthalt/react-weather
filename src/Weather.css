@@ -28,7 +28,6 @@
 .Weather canvas {
   top: 3px;
   position: relative;
-  margin-right: 10px;
 }
 
 .Weather .temperature {
@@ -44,4 +43,8 @@
   line-height: 1;
   margin-left: 5px;
   position: relative;
+}
+
+.WeatherTemperature .temperature {
+  margin-left: 10px;
 }
