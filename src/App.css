@@ -7,4 +7,9 @@
   color: #70757a;
   font-size: 11px;
   margin: 10px 0;
+  text-align: center;
+}
+
+.App footer a {
+  color: var(--primary-color);
 }

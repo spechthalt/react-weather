@@ -1,14 +1,29 @@
 .Weather {
-  border: 1px solid #cbcdcf;
   border-radius: 4px;
   padding: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.Weather .btn {
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.Weather ::placeholder {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.Weather .form-control {
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
 }
 
 .Weather h1 {
-  color: rgb(32, 33, 36);
-  font-size: 22px;
-  font-weight: 400;
+  color: var(--primary-color);
+  font-size: 28px;
+  font-weight: 600;
   line-height: 26px;
   margin: 20px 0 0 0;
 }
@@ -19,7 +34,7 @@
 }
 
 .Weather li {
-  color: #70757a;
+  color: var(--secondary-color);
   font-size: 14px;
   line-height: 20px;
   list-style: none;
@@ -38,7 +53,7 @@
 
 .Weather .unit {
   bottom: 34px;
-  color: #70757a;
+  color: var(--secondary-color);
   font-size: 16px;
   line-height: 1;
   margin-left: 5px;
