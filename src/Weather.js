@@ -14,7 +14,6 @@ export default function Weather(props) {
   }
 
   function displayWeather(response) {
-    //console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: Math.round(response.data.main.temp),
