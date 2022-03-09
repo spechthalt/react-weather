@@ -13,3 +13,18 @@
 .App footer a {
   color: var(--primary-color);
 }
+
+@media screen and (max-width: 450px) {
+  .WeatherForecast {
+    font-size: 12px;
+  }
+
+  .WeatherInfo h1,
+  ul {
+    text-align: center;
+  }
+
+  .Weather {
+    padding: 0;
+  }
+}

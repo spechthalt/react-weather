@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import "./Weather.css";
+import "./App.css";
 import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 
@@ -44,18 +45,18 @@ export default function Weather(props) {
       <div className="Weather">
         <form onSubmit={getWeather}>
           <div className="row">
-            <div className="col-9">
+            <div className="col-12 col-sm-9">
               <input
                 type="search"
                 placeholder="Enter a City"
-                className="form-control"
+                className="form-control "
                 autoFocus="on"
                 onChange={updateCity}
               />
             </div>
             <div className="col-3">
               <input
-                className="btn btn-primary w-100"
+                className="btn btn-primary w-100 d-none d-sm-inline"
                 type="submit"
                 value="Search"
               />

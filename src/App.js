@@ -8,7 +8,15 @@ function App() {
         <Weather city="New York" />
         <footer>
           <p>
-            This webiste was coded by Stephanie Davis and is{" "}
+            This webiste was coded by{" "}
+            <a
+              href="https://www.stephdaviscodes.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Stephanie Davis
+            </a>{" "}
+            and is{" "}
             <a
               href="https://github.com/spechthalt/react-weather"
               target="_blank"
